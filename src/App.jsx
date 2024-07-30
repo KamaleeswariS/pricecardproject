@@ -124,11 +124,13 @@ function App(){
     <div className="container">
       <Header/>
       <main>
-        <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="p-3 mb-2 bg-primary text-white"></div>
+    <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
           {Cards.map((card, index) => {
             return <Card key={index} card={card} />;
           })} 
         </div>
+        <div class="p-3 mb-2 bg-primary text-white"></div>
       </main>
     </div>
   );

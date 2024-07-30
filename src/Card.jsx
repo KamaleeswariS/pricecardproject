@@ -6,10 +6,10 @@ function Card({card}){
   console.log(card)
     return(
     <div className="col">
-      <div className="background-image: var(--bs-gradient)"/>
-    <div className={`card mb-2 rounded-3 shadow-sm ${card.plan == 'PRO' && 'border-primary'}`}>
+       <div className={`card mb-2 rounded-3 shadow-sm ${card.plan == 'PRO' && 'border-primary'}`}>
       <div className={`card-header py-3 ${card.plan == 'PRO' && 'text-bg-primary border-primary' }`}> 
         <h4 className="my-0 fw-normal">{card.plan}</h4>
+        <div class="opacity-50"></div>
       </div>
       
       <div className="card-body">
